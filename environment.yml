@@ -13,4 +13,4 @@ dependencies:
   - ipykernel=5.1.4
   - pip:
     - pybids==0.10.0
-
+    - tensorflow==2.1.0
