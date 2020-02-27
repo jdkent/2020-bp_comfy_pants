@@ -19,3 +19,14 @@
 6. reload the main jupyterhub page.
 7. using the jupyterhub interface, open the notebook with your name.
 8. also open the `model_example.ipynb` notebook to get inspiration on how to make models.
+
+## Lessons from first Hackathon
+
+1. data has way more cases than controls. (almost 2:1)
+2. lots of missing data for the SPECT data.
+3. PCA "appears" to be the best data reduction strategy (relative to selecting the most informative features,
+   Factor Analysis, and several other data reduction methods)
+4. maybe need to look into other datasets to improve classification
+    - [schizconnect](http://schizconnect.org/)
+    - [f con 1000](http://fcon_1000.projects.nitrc.org/)
+    - [openneuro](https://openneuro.org/)
